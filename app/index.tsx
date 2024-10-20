@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import SignIn from "./components/SignIn";
 
 export default function Index() {
   return (
@@ -9,10 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text style={{ 
-        fontFamily: 'outfit',
-        fontSize: 30
-       }}>Edit app/index.tsx to edit this screen.</Text>
+      <SignIn />
     </View>
   );
 }
